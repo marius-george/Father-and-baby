@@ -1,22 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap');
+
+body {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 300;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 #mainMenu .nav-link {
-  color: #17a2b8;
+  color: #17abc2;
 }
 #mainMenu .nav-link:hover {
-  background: #17a2b8;
+  background: #17abc2;
   border-radius: 5px;
-  color: #262626;
+  color: #272727;
 }
 #mainMenu .nav-link.active {
-  background: #17a2b8;
+  background: #17abc2;
   border-radius: 5px;
-  color: #262626;
+  color: #272727;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #262626;
+  background-color: #272727;
 }
 
