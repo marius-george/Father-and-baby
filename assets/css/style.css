@@ -26,6 +26,12 @@ img {
 .carousel-control-next-icon {
   background-color: #272727;
 }
+
+#contact {
+  background: url(/assets/img/map.jpg);
+}
+
+
 /* Footer styling */
 #footer ul a {
   color: #272727;
