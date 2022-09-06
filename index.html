@@ -7,6 +7,7 @@
     <title>Father and Baby</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://use.fontawesome.com/f595f10b1f.js"></script>
 </head>
 <body>
   
@@ -33,7 +34,7 @@
 
       <!--Carousel section-->
 
-  <section id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
+  <div id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
     <div class="carousel-inner" id="slider-padding">
       <div class="carousel-item active">
         <img class="d-block w-100" src="/assets/img/banner_01.jpg" alt="">
@@ -51,7 +52,7 @@
     <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
     </button>
-  </section>
+  </div>
 
   <!-- About Us Section -->
 
@@ -103,7 +104,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="/assets/img/SalmonAndVegieBites.jpg" alt="Salmon and Veggie bites food image" class="card-img-top">
+            <a href="/SalmonVeggie.html"><img src="/assets/img/SalmonAndVegieBites.jpg" alt="Salmon and Veggie bites food image" class="card-img-top"></a>
             <div class="card-body">
               <h4 class="card-title">Salmon & Veggie Bites</h4>
               <p class="card-text">Did you know that you can introduce salmon as soon as your baby is ready for solids, so from around the 6-month mark?</p>
@@ -133,7 +134,7 @@
         </div>
       </div>
     </div>
-    </div>
+    
   </section>
 
   <!--Contact us section-->
@@ -147,7 +148,7 @@
             <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank" class="p-3 text-start">
               <div class="mb-3">
                 <label for="name" class="form-label">Your Name</label>
-                <input type="name" name="yourname" id="name" placeholder="Enter Your Name" class="form-control" required>
+                <input type="text" name="yourname" id="name" placeholder="" class="form-control">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Your Email</label>
@@ -159,7 +160,7 @@
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Your Message</label>
-                <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your Message" class="form-control" required></textarea>
+                <textarea name="textarea" id="message" cols="30" rows="10" placeholder="Enter your Message" class="form-control" required></textarea>
               </div>
               <button class="btn btn-info">Submit</button>
             </form>
@@ -171,27 +172,27 @@
 
   <!-- Footer -->
 
-  <footer id="footer" class="pt-5 pb-2">
+  <footer id="footer" class="pt-5 pb-2 bg-light">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="" alt="Logo">
+          <img src="/assets/img/logo.png" alt="Logo">
           <p>Here is information on when and how to begin waning your baby, best foods to try and tasty recipes and hints for introducing more complex flavours and textures later on.</p>
         </div>
         <div class="col-md-3">
           <h3>Recipes</h3>
          <ul class="list-unstyled">
            <li class="mb-2"><a href="/PizzaWithRicotta.html">Pizza with Ricotta</a></li>
-           <li class="mb-2"><a href="">Plant Veggie Croquettes</a></li>
-           <li class="mb-2"><a href="">Salmon and Veggie bites</a></li>
+           <li class="mb-2"><a href="/VeggieCroquettes.html">Plant Veggie Croquettes</a></li>
+           <li class="mb-2"><a href="/SalmonVeggie.html">Salmon and Veggie bites</a></li>
          </ul>
         </div>
         <div class="col-md-3">
           <h3>Social Media</h3>
          <ul class="list-unstyled">
-           <li class="mb-2"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-           <li class="mb-2"><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-           <li class="mb-2"><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+           <li class="mb-2"><a href="https://www.facebook.com" target="_blank"><span class="fa-brands fa-facebook fa-lg"></span> Facebook</a></li>
+           <li class="mb-2"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> Instagram</a></li>
+           <li class="mb-2"><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
          </ul>
         </div>
         

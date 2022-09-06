@@ -7,12 +7,13 @@
     <title>Father and Baby</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://use.fontawesome.com/f595f10b1f.js"></script>
 </head>
 <body>
   
 <!-- Navbar section -->
 
-    <nav id="main_menu" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <nav id="main_menu" class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="/index.html"><img src="assets/img/logo.png" alt="Logo" width="250"></a>
     
@@ -23,7 +24,6 @@
           <div id="mainMenu" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
               <li><a class="nav-link" href="/index.html">Home</a></li>
-              <li><a class="nav-link" href="#about">About</a></li>
               <li><a class="nav-link" href="#recipes">Recipes</a></li>
               <li><a class="nav-link" href="#contact">Contact Us</a></li>
             </ul>
@@ -116,29 +116,62 @@
     </div>
   </section>
 
+  <!--Contact us section-->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <div class="card p-4 my-5 text-center">
+            <h2>Contact Us</h2>
+            <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank" class="p-3 text-start">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="name" name="yourname" id="name" placeholder="Enter Your Name" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Your Phone</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Your Phone" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your Message" class="form-control" required></textarea>
+              </div>
+              <button class="btn btn-info">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
 
-  <footer id="footer" class="pt-5 pb-2">
+  <footer id="footer" class="pt-5 pb-2 bg-light">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="" alt="Logo">
+          <img src="/assets/img/logo.png" alt="Logo">
           <p>Here is information on when and how to begin waning your baby, best foods to try and tasty recipes and hints for introducing more complex flavours and textures later on.</p>
         </div>
         <div class="col-md-3">
           <h3>Recipes</h3>
          <ul class="list-unstyled">
            <li class="mb-2"><a href="/PizzaWithRicotta.html">Pizza with Ricotta</a></li>
-           <li class="mb-2"><a href="">Plant Veggie Croquettes</a></li>
-           <li class="mb-2"><a href="">Salmon and Veggie bites</a></li>
+           <li class="mb-2"><a href="/VeggieCroquettes.html">Plant Veggie Croquettes</a></li>
+           <li class="mb-2"><a href="/SalmonVeggie.html">Salmon and Veggie bites</a></li>
          </ul>
         </div>
         <div class="col-md-3">
           <h3>Social Media</h3>
          <ul class="list-unstyled">
-           <li class="mb-2"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-           <li class="mb-2"><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-           <li class="mb-2"><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+           <li class="mb-2"><a href="https://www.facebook.com" target="_blank"><span class="fa-brands fa-facebook fa-lg"></span> Facebook</a></li>
+           <li class="mb-2"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> Instagram</a></li>
+           <li class="mb-2"><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
          </ul>
         </div>
         

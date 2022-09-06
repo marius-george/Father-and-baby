@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&display=swap');
 
+
 body {
   font-family: 'Mitr', sans-serif;
   font-weight: 300;
@@ -9,6 +10,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+  /* Navbar styling  */
+
 #mainMenu .nav-link {
   color: #17abc2;
 }
@@ -27,8 +31,22 @@ img {
   background-color: #272727;
 }
 
+/* Contact Us background image */
 #contact {
   background: url(/assets/img/map.jpg);
+}
+
+/* Media Queries */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  #slider {
+    padding-top: 60px;
+  }
+  #about {
+    padding: 30px;
+  }
+  #about .col-md-6.align-self-center{
+    padding-bottom: 30px;
+  }
 }
 
 
