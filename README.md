@@ -1,108 +1,178 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome marius-george,
+<h1 align="center">Father and Baby</h1>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the live project here.](https://github.com/marius-george/Father-and-baby.git)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This is the main Father and Baby website. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential parents. The purpose of the website is to provide information about ingredients and recipes to make great food for babies and toddlers.
 
-## Gitpod Reminders
+<h2 align="center"><img src="https://ibb.co/t2zDrhM"></h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+-   ### User stories
 
-A blue button should appear to click: _Make Public_,
+    -   #### First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and find a big diversity of food recipes for babies and toddlers.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content and layout of the website to feel natural.
+        3. As a First Time Visitor, I want to look for information about how to prepare the recipes and what ingredients I need.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Returning Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Returning Visitor, I want to find new recipes and try something new.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the owner with any questions I may have.
+        3. As a Returning Visitor, I want to find good website layout simple to use and easy on the eye.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to have all the recipes on the website and have easy access on them.
+        2. As a Frequent User, I want to check to see if there are any new food and alergies information that parents might know.
+        
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colours used are clubs colours, turqoise and light grey.
+    -   #### Typography
+        -   The Mitr font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Mitr is a clean font used in food websites, so it is both attractive and appropriate.
+    -   #### Imagery
+        -   Carousel and About Us images are from Shutterstock (https://www.shutterstock.com/). I had to edit them in Photoshop to change the resolution and resize them to fit the carousel.
+        - Recipe images are from Annabel Karmel website (https://www.annabelkarmel.com/).
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+*   ### Wireframes
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    -   Home Page Wireframe - [View](https://ibb.co/hRnz0wC)
 
-------
+    -   Mobile Wireframe - [View](https://ibb.co/QDxVNwb)
 
-## Release History
+    
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-   Responsive on all device sizes 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-   Interactive menu bar with hambuger icon on small devices.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   Carousel gallery on main page with 3 images that change after few seconds.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Technologies Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Languages Used
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Bootstrap4] (https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Frameworks, Libraries & Programs Used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://ibb.co/PhGB3cG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://ibb.co/56zSgnN)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Testing 
+1. With the website opened I made sure that when you click on the logo and Home link it goes to the homepage.
+2. When clicked on the link from the navbar in the homepage all links goes to the specified page, recipes or contact us.
+3. in the footer when clicked on the links all direct to the relevant webpages.
+4. In the recipes page when clicked on an image it should load the full recipe page and sow all relevant information.
+5. In the contact us form all working and when form submited it should return Code Institute website with the correct data sent.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Further Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-   The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, Samsung Galaxy TAB, iPhone 13 and Huawei P30 Pro.
+-   
 
-------
 
-## FAQ about the uptime script
+## Deployment
 
-**Why have you added this script?**
+1. Deployment has been made in github using the following commands:
+  - git status to check the status of the files in github
+  - git add . to add all modified files
+  - git commit -m "example text" to index all that has been modified to the website
+  - git push to upload the website in the cloud
+  - python3 -m http.server in the terminal to view the page working in a separate tab of the web browser.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### GitHub Pages
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The project was deployed to GitHub Pages using the following steps...
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Forking the GitHub Repository
 
-**So….?**
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-**Can I opt out?**
+### Making a Local Clone
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+## Credits
+
+- https://startbootstrap.com/snippets/thumbnail-gallery - For providing the code for the gallery.
+- https://www.pexels.com - For providing the pictures of the website.
+- https://www.designevo.com - Helped me with the logo of the team.
+
+
+### Content
+
+-   Partial content was written by the developer. 
+
+
+### Media
+
+-   All Images were downloaded from https://www.shutterstock.com , https://www.annabelkarmel.com websites.
+
+-   
+
