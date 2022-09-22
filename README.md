@@ -5,7 +5,7 @@
 
 This is the main Father and Baby website. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential parents. The purpose of the website is to provide information about ingredients and recipes to make great food for babies and toddlers.
 
-![Website Mockup](https://ibb.co/t2zDrhM/)
+![Website Mockup](./assets/img/mockup.jpg)
 
 ## User Experience (UX)
 
