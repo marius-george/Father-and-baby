@@ -1,11 +1,11 @@
 
-<h1 align="center">Father and Baby</h1>
+# Father and Baby
 
-[View the live project here.](https://github.com/marius-george/Father-and-baby.git)
+[View the live project here.](https://marius-george.github.io/Father-and-baby/)
 
 This is the main Father and Baby website. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential parents. The purpose of the website is to provide information about ingredients and recipes to make great food for babies and toddlers.
 
-<h2 align="center"><img src="https://ibb.co/t2zDrhM"></h2>
+![Website Mockup](https://ibb.co/t2zDrhM/)
 
 ## User Experience (UX)
 
@@ -14,7 +14,7 @@ This is the main Father and Baby website. It is designed to be responsibe and ac
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and find a big diversity of food recipes for babies and toddlers.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content and layout of the website to feel natural.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content and layout of the website to feel intuitive.
         3. As a First Time Visitor, I want to look for information about how to prepare the recipes and what ingredients I need.
 
     -   #### Returning Visitor Goals
@@ -30,12 +30,13 @@ This is the main Father and Baby website. It is designed to be responsibe and ac
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are clubs colours, turqoise and light grey.
+        -   The two main colours used are turqoise and light grey.
     -   #### Typography
         -   The Mitr font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Mitr is a clean font used in food websites, so it is both attractive and appropriate.
     -   #### Imagery
         -   Carousel and About Us images are from Shutterstock (https://www.shutterstock.com/). I had to edit them in Photoshop to change the resolution and resize them to fit the carousel.
-        - Recipe images are from Annabel Karmel website (https://www.annabelkarmel.com/).
+        -   Recipe images are from Annabel Karmel website (https://www.annabelkarmel.com/).
+        -   Logo was created and edited at (https://www.freelogocreator.com/).
 
 
 *   ### Wireframes
@@ -56,11 +57,17 @@ This is the main Father and Baby website. It is designed to be responsibe and ac
 
 ## Technologies Used
 
+- HTML
+- CSS
+- Bootstrap
+- Java Script
+
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Bootstrap4] (https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
+-   [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap)
+-   [Java Script](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -92,14 +99,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 1. With the website opened I made sure that when you click on the logo and Home link it goes to the homepage.
 2. When clicked on the link from the navbar in the homepage all links goes to the specified page, recipes or contact us.
 3. in the footer when clicked on the links all direct to the relevant webpages.
-4. In the recipes page when clicked on an image it should load the full recipe page and sow all relevant information.
+4. In the recipes page when clicked on an image it should load the full recipe page and show all relevant information.
 5. In the contact us form all working and when form submited it should return Code Institute website with the correct data sent.
+6. Used Chrome developers tools to resize the webpage and it was responsive at all resolutions.
+
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, Samsung Galaxy TAB, iPhone 13 and Huawei P30 Pro.
--   
+
+### Bugs
+
+- When scrooling the main page navigation bar is always fixed but does not highlight sections. When About Us section is active the fixed menu bar should highlight About link in Turqoise colour.
+- Font Awesome icons does not show corectly in footer section. I still have to figure it out how to make them work. Reason is Font Awesome website changed how icons work and now they have free and paid icons.
 
 
 ## Deployment
@@ -160,19 +173,18 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-- https://startbootstrap.com/snippets/thumbnail-gallery - For providing the code for the gallery.
-- https://www.pexels.com - For providing the pictures of the website.
-- https://www.designevo.com - Helped me with the logo of the team.
+- https://www.shutterstock.com - For providing the images for the carousel.
+- https://www.annabelkarmel.com - For providing the pictures of the recipes.
+- https://www.freelogocreator.com - Helped me with the logo of the team.
 
 
 ### Content
 
--   Partial content was written by the developer. 
+-   Partial content was written by the developer.
+-   Recipes content is from (https://www.annabelkarmel.com) website. 
 
 
 ### Media
 
--   All Images were downloaded from https://www.shutterstock.com , https://www.annabelkarmel.com websites.
-
--   
+-   All Images were downloaded from https://www.shutterstock.com and https://www.annabelkarmel.com websites.
 
